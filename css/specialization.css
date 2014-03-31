@@ -1,0 +1,129 @@
+
+/* TOP */
+.field-name-body {
+	padding: 1em 0 0 0;
+	/*background: rgba(0,0,0,0.75);*/
+	font-weight: 300;
+	font-size: 1.25em;
+	line-height: 125%;
+	letter-spacing: 1px;
+}
+
+	.field-name-body *{
+		margin-bottom: 1em;
+		/*color: #fff;*/
+	}
+	
+	.field-name-body a{
+		font-weight: 400;
+	}
+
+.spec-student-work{
+	padding: 0.5em;
+}
+
+	.spec-student-work td{
+	vertical-align: top;
+	}
+
+.spec-student-work img{
+height: auto;
+width: 100%;
+}
+
+#curriculum{
+	padding: 0;
+	background: #f7f7f7;
+	border: 1px solid #d9d9d9;
+
+	/*border: 2px solid #ededed;*/
+	/*background: #ededed;*/
+}
+	#curriculum .side-nav,
+	#curriculum .col-sm-8{
+	padding: 0;
+	font-weight: 300;
+	}
+		#curriculum .side-nav{
+		text-align: center;
+		background: #ededed;
+		/*background: #ededed;*/
+		}
+
+	#curriculum #spec_info{
+		padding: 1em;
+	}
+
+	#curriculum.row{
+	margin: 0;
+	}
+		#curriculum .col-sm-4{
+		padding-left: 0;
+		}	
+
+
+	#curriculum h3,
+	#curriculum h5{
+	padding: 0;
+	margin: 0;
+	font-weight: 300;
+	}
+		#curriculum .side-nav h3{
+		padding: 0.5em 0; 
+		background: #cdcdcd;
+		/*background: #cdcdcd;*/
+		}
+
+		#curriculum h5{
+		font-size: 1.5em;
+		margin-bottom: 1em;
+		color: #56a0d3;
+		}
+	
+		#curriculum .side-nav ul{
+		margin:0; padding: 0;
+		}
+
+	#curriculum .tab{
+		cursor: pointer;
+		display: block;
+		width: 100%;
+		padding: 1em;
+		border-bottom: thin solid #ddd;
+	}
+		#curriculum li:last-child .tab{
+		border-bottom: 0;
+		}
+	
+	#curriculum .tab.active,
+	#curriculum .tab:hover{
+		background: #ddd;	
+	}
+
+	#curriculum .views-field-field-brief-description{
+		font-style: italic;
+		margin: 1em 0;
+		font-size: 0.9em;
+		color: #aaa;
+	}
+
+	#curriculum th{
+		text-transform: uppercase;
+		font-size: 0.75em;
+		font-weight: bold;	
+	}
+
+
+#studentwork.row {
+	background: #ededed;
+	padding: 1em 0.5em;
+}
+	#studentwork h3{
+	padding: 0;
+	margin: 0;
+
+	}
+
+.titleblock{
+	min-height: 300px;
+}

@@ -1,0 +1,253 @@
+h2.block-title,
+.featuredstories h2 a{
+	color: #6d6d6d;
+	line-height: 125%;
+	}
+
+	h2.block-title{
+		font-weight: 200;
+	}
+
+	h2.block-title>a{
+		font-weight: 200;
+		color: #6d6d6d;
+	}	
+
+
+/* FEATURED STORIES */
+.featuredstories{
+	background: #ededed;
+}
+	.featuredstories .container{
+	padding-top: 2em; padding-bottom: 2em;
+	}
+	
+		
+	.featuredstories img{
+	width: 100%;
+	height: auto;}
+
+	.featuredstories .field-type-node-reference h2{
+	font-size: 1em;
+	padding: 0.5em 0; margin: 0;
+	font-weight: 300;
+	min-height: 5em;
+	}
+		
+		.featuredstories h2.block-title{
+			padding-left: 15px;
+		}
+		.featuredstories .field-type-node-reference h2>a:hover{
+		color: #56a0d3;
+		}
+
+	.featuredstories .field-name-field-event-category,
+	.featuredstories .field-name-field-category {
+		text-align: right;
+	}
+	
+	.featuredstories .field-name-field-event-category a,
+	.featuredstories .field-name-field-category a {
+		color: #9d9d9d;
+		font-weight: 300;
+		font-size: 1em;
+	}
+		.featuredstories .field-name-field-event-category a:after,
+		.featuredstories .field-name-field-category a:after{
+			font-weight: 900;
+			font-size: 1em;
+			content: " \203A";
+		}
+
+
+/* LATEST NEWS */
+/* TWITTER */
+#block-views-tweets-front-twitter.col-sm-3{
+padding-right: 0;
+padding-left: 0;
+}
+
+.col-sm-3 .twitter .view-content{
+margin-top: 3em;
+background: #bcd9ee;
+padding: 1em;
+
+}
+	.twitter h4{
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	}
+
+	.twitter .views-field-text{
+	padding: 1em 0;
+	}
+	.twitter .views-field-text a{
+	color: #555;
+	font-weight: 400;	
+	}
+
+	.twitter .views-field-created-time{
+	font-size: 0.75em;
+	}
+
+/*	.featuredstories .view-latest-news{
+		text-align: center;	
+	}
+	#block-views-latest-news-block{
+		position: relative;
+		min-height: 170px;
+		background: #ccc;
+	}
+		#block-views-latest-news-block h2.block-title{
+		font-size: 1.75em;
+		font-weight: 300;
+		padding: 0;
+		}
+		
+		#block-views-latest-news-block a{
+		color: #6d6d6d;
+		font-weight: 200;
+		line-height: 125%;
+		}
+
+		#block-views-latest-news-block .view-content{
+		margin-top: 1.5em;
+		}
+*/		
+		.homepagebg .pager{
+		position: absolute;
+		bottom: 0;
+		right: 5%;
+		}
+			.homepagebg .pager li>a{
+				background: transparent;
+				padding: 0; margin: 0;
+				font-weight: 900;
+				font-size: 1.25em;
+			}
+
+			.homepagebg .pager li.pager-current {
+				color: #333;
+				font-size: 0.75em;
+			}
+					
+			.homepagebg .pager a {
+			color: #6d6d6d;
+			font-weight: 200;
+			line-height: 125%;
+			}
+				
+/* SLIDER */
+	#homepage-slider{
+	height: 400px;
+	padding: 0;}
+
+	#homepage-slider .item{
+	min-height: 400px;
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;}
+
+	#homepage-slider .carousel-caption{
+	padding: 1em 0; margin: 0;
+	text-align: right;
+	width: auto;
+	left: 50%;
+	}
+		@media (max-width: 1200px){
+			#homepage-slider .carousel-caption{
+			left: 15%;
+			}
+		}
+		#homepage-slider .carousel-caption h2{
+		font-weight: 100;
+		letter-spacing: 1px;
+		text-shadow: none;
+		background: rgba(86,160,211,0.9);
+		padding: 0.5em 0.5em;
+		font-size: 2em;
+		}
+			#homepage-slider .carousel-caption h2:hover{
+			background: rgba(86,160,211,0.75);}
+			#homepage-slider .carousel-caption h2 a{
+			color: #fff;
+			text-shadow: none;
+			}
+			#homepage-slider .carousel-caption h2 a:hover{
+			text-decoration: none;}
+
+		#homepage-slider .carousel-caption .field{
+		font-size: 1.125em;
+		font-weight: 200;
+		background: rgba(255,255,255,0.99);
+		color: #6d6d6d;
+		text-shadow: none;
+		padding: 0.5em 0.5em;
+		}
+
+/* STUDENT WORK SIDEBAR */
+	.region-home-narrow, .region-home-narrow-l, .region-home-wide{
+	padding: 2em 0;}
+
+	.region-home-narrow img{
+	width: 100%;
+	height: auto;}
+
+	h5.studentwork-label{
+	font-size: 0.9em;
+	line-height: 125%;
+	
+	}
+	h5.studentwork-label a{
+	 color: #6d6d6d;
+         font-weight: 200;
+	 display: block;
+	 height: 2em;
+	}
+
+/* UPCOMING EVENTS */
+.block-views-calendar-upcomingevents .table>tbody>tr>td{
+	border: 0;
+}
+	.view-id-calendar td h5 a{
+	font-weight: 300;
+	color: #4d4d4d;
+	}
+
+	
+	.view-id-calendar td p{
+	font-weight: 300;
+	font-size: 0.9em;
+	margin: 0;
+	/*font-style: italic;*/
+	}
+
+	.view-id-calendar td strong{
+	line-height: 100%;
+	font-weight: 200;
+	color: #6d6d6d;
+	}
+
+
+/* TWITTER */
+.featuredstories #block-views-tweets-block h2.block-title{
+margin: 0;
+padding: 0;
+line-height: 100%;
+font-size: 1.25em;
+font-weight: 300;
+color: #333;
+}
+
+/* SOCIAL MEDIA LINKS */
+.socialmedia-home {
+padding-top: 1em; 
+font-weight: 200;
+}
+
+.socialmedia-home a{
+color: #aaa;
+font-size: 1.25em;
+}

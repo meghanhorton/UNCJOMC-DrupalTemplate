@@ -1,0 +1,72 @@
+name = UNC JOMC
+description = A Bootstrap Sub-theme for the UNC School of Journalism and Mass Communication
+core = 7.x
+base theme = bootstrap
+
+; Regions
+; regions[navigation]     		= 'Navigation'
+; regions[header]         		= 'Top Bar'
+regions[sidebar_first]  		= 'Primary'
+regions[sidebar_second] 		= 'Secondary'
+regions[calendar]		  		= 'Calendar'
+regions[slider]					= 'Slider'
+regions[highlighted]    		= 'Highlighted'
+regions[home-narrow-l]			= 'Home, Left, 3 wide'
+regions[home-wide]				= 'Home, Center, 6 wide'
+regions[home-narrow] 			= 'Home, Right, 3 wide'
+regions[help]           		= 'Help'
+regions[content]        		= 'Content'
+regions[footer_a]       		= 'Footer - Column A'
+regions[footer_b]				= 'Footer - Column B'
+regions[footer_c]				= 'Footer - Column C'
+regions[login]         			= 'Login'
+regions[search]        			= 'Search'
+regions[specialization] 		= 'Specializations'
+regions[form-scholarship] 		= 'Exposed form, scholarships'
+
+; Region Wells
+; --------------
+settings[bootstrap_region_well-sidebar_first] = ''
+
+; Stylesheets
+stylesheets[all][] = 'bootstrap/css/bootstrap.css'
+stylesheets[all][] = 'bootstrap/css/bootstrap-theme.css'
+stylesheets[all][] = 'css/overrides.css'
+stylesheets[all][] = 'css/style.css'
+stylesheets[all][] = 'css/menu.css'
+
+; Scripts
+scripts[] = 'js/main.js'
+
+; ; Scripts
+scripts[] = 'bootstrap/js/bootstrap.min.js'
+; scripts[] = 'bootstrap/js/affix.js'
+; scripts[] = 'bootstrap/js/alert.js'
+; scripts[] = 'bootstrap/js/button.js'
+; scripts[] = 'bootstrap/js/carousel.js'
+; scripts[] = 'bootstrap/js/collapse.js'
+; scripts[] = 'bootstrap/js/dropdown.js'
+; scripts[] = 'bootstrap/js/modal.js'
+; scripts[] = 'bootstrap/js/tooltip.js'
+; scripts[] = 'bootstrap/js/popover.js'
+; scripts[] = 'bootstrap/js/scrollspy.js'
+; scripts[] = 'bootstrap/js/tab.js'
+; scripts[] = 'bootstrap/js/transition.js'
+; Settings inherited by base theme, uncomment to override.
+	; settings[toggle_name] = 0	
+	; settings[toggle_search] = 1
+; Disable the CDN as we are using our own source files.
+settings[bootstrap_cdn] = ''
+settings[cdn_bootstrap] = ''
+
+
+;*************************
+; METHOD 2: Bootstrap CDN
+;*************************
+; 
+; ; Settings inherited by base theme, uncomment to override.
+; ;settings[toggle_name] = 0
+; ;settings[toggle_search] = 1
+; ;settings[cdn_bootstrap] = 1
+; ;settings[bootstrap_cdn] = 3.0.0
+

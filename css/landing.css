@@ -1,0 +1,191 @@
+/* LANDING PAGE CSS */
+.center{
+	text-align: center;
+	}
+
+.right{
+	text-align: right;
+}
+
+
+label.iam{
+	font-weight: 200;
+	font-size: 2em;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+padding: 1em 0;
+}
+
+.entity-field-collection-item .field-name-field-title{
+font-size: 2em;
+font-weight: 200;
+padding-bottom: 0.5em;}
+
+#topbanner{
+	margin-top: 0;
+	min-height: 300px;
+	background-position: top center;
+	background-size: cover;
+}
+	#topbanner .container{
+	position: relative;
+	display: block;
+	min-height: 300px;
+	}
+	
+	#topbanner h1{
+	margin: 0;
+	position: absolute;
+	bottom: .25em;
+	right: 0;
+	color: #fff;
+	font-size: 4em;
+	font-weight: 100;
+	text-shadow:0px 0px 30px #000000, 0px 0px 10px #000000;
+	}
+
+.field-name-field-view select{
+	margin: 1em 0 0 0 ;
+}
+
+a.view-more{
+	display: block;
+	width: 100%;
+	font-size: 0.9em;
+	color: #888;
+	font-weight: 500;
+	text-align: right;
+}
+
+.lg-padding{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.imgmax img{
+	width: 100%;
+	height: auto;
+}
+
+.lg-font p, .lg-font li{
+	font-size: 1.25em;}
+	.lg-font li li{
+	font-size: 0.75em;
+	line-height: 150%;}
+
+.lg-select select{
+	height: 45px;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+	}
+
+.white, .white a, .white *{
+color: #fff;}
+	.white a:hover{
+	color:#fff;`
+	}
+
+	.white input, .white select{
+	color: #333;
+	}
+.date-tag{
+	background: #a1a237;
+	text-align: center;
+	color: #fff;
+}
+	.date-tag h2.tag-day, 
+	.date-tag h4.tag-month,
+	.date-tag p{
+		padding: 0; margin: 0;
+		line-height: 100%;
+	}
+		.date-tag span{
+			font-weight: 100;
+		}
+	
+	.date-tag h2.tag-day{
+		font-size: 3.75em;}
+	.date-tag h4.tag-month{
+		font-size: 1.75em;}
+	.date-tag p.tag-hour{
+		font-size: 0.75em;
+		line-height: 3em;}
+	.date-tag p.tag-title{
+		font-size: 0.75em;
+		text-transform: uppercase;
+		color: #194360;
+		font-weight: 500
+		font-weight: 500;}
+
+a.btn-blue, a.btn-green{
+	background: #56a0d3;
+	border: 0;
+	font-weight: 200;
+	color: #fff;
+	text-transform: uppercase;
+}
+	a.btn-green{
+	background: #a1a237;
+	}
+	
+	a.btn-blue:hover{
+		background: #75b1db;
+		color: #e2eff7;	
+	}
+
+	a.btn-full{
+	width: 100%;
+	margin-bottom: 1em;
+	}
+
+/*.orange select{
+	background: #ad612d;
+	color: #fff;
+	border: thin solid #ad612d;
+}*/
+
+.twitter span{
+	font-size: 1.25em;
+	color: #d3e6f3;
+}
+	.twitter span a:hover{
+	color: #d3e6f3;
+	}
+	.twitter h4{
+	font-size: 1.5em;
+	}
+	/*.twitter i{
+	padding: 15px 30px 0 0; 
+	}*/
+
+ul.no-bullet li, ul.no-bullet{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+	ul.no-bullet li{
+	line-height: 150%;
+	}
+	ul.no-bullet i{
+	margin-right: 10px;
+	color: #ccc;
+	}
+		ul.no-bullet i:hover{
+		color: #333;
+		}
+
+.has-image{
+	background-position: center center !important;
+	background-size: cover !important;
+}
+
+.views-exposed-form .views-exposed-widget{
+	padding-top: 0;
+}
+
+.grey-link a{
+color: #777;
+}

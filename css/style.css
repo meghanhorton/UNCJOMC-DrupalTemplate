@@ -1,0 +1,583 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
+
+.dropdown-backdrop{
+    position: static;
+}
+
+body{
+	font-size: 16px;
+}
+
+*, h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato','Helvetica Neue','Helvetica','Arial',sans-serif;
+	font-weight: 300;
+}
+	h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+	}
+
+	h4{
+	font-size: 1.25em;
+	}
+
+	h5{
+	font-size: 1.125em;
+	}
+
+	h2.a{
+	color: #333;
+	font-weight: 300;
+	}
+a{
+	color: #56a0d3;
+}
+
+
+body{
+	background: #f9f9f9;
+	position: relative;
+	min-height: 1000px;
+}
+
+b,strong{
+font-weight: 400;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+table.views-view-grid{
+	width: 100%;
+}
+	.views-view-grid td{
+	width: 33%;
+	padding: 0 10px 2em 10px;
+	}
+
+	.views-view-grid td>img{
+	width: 100%;
+	height: auto;
+	}
+.logo img{
+max-width: 100%;
+height: auto;
+}
+
+/* CALENDAR */
+.calendar-calendar .month-view .full td.single-day div.monthview, .calendar-calendar .week-view .full td.single-day div.weekview, .calendar-calendar .day-view .full td.single-day div.dayview,
+.calendar-calendar .month-view .full td.multi-day div.monthview, .calendar-calendar .week-view .full td.multi-day div.weekview, .calendar-calendar .day-view .full td.multi-day div.dayview,
+.calendar-calendar .month-view .full td.multi-day .inner .monthview .continues, .calendar-calendar .month-view .full td.multi-day .inner .monthview .cutoff, .calendar-calendar .week-view .full td.multi-day .inner .weekview .continues, .calendar-calendar .week-view .full td.multi-day .inner .weekview .cutoff{
+background: #e9e9e9;
+color: #777;
+}
+
+
+.node-scholarships-database .field{
+padding: 1em 0;
+border-bottom: solid #eee thin;
+}
+
+.node-scholarships-database .field h3.field-label{
+margin: 0;
+padding: 0;
+font-size: 1.1em;
+padding-right: 1em;
+font-weight: 400;
+}
+	.node-scholarships-database .field-items{
+	padding: 1em 0;
+	}
+
+table.views-view-grid img{
+max-width: 100%;
+height: auto;
+}
+
+/* EVENT PAGE*/
+.view-display-id-maincontent h3{
+	margin-top: 0;
+}
+.view-display-id-maincontent .row{
+	padding-bottom: 2em;
+}
+
+.view-display-id-basic .row{
+	padding: 1em;
+	border-bottom: thin solid #eee;
+}
+
+.view-display-id-basic .row.description{
+	border: 0;
+}
+
+
+.imgbg{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
+	.jumbotron h1{
+			font-size: 2em;
+		}
+
+	.jumbotron h2{
+		font-size: 1.25em;
+		line-height: 1.25em;
+	}
+
+	.jumbotron h2, .jumbotron h3{
+		opacity: 0.75;
+		font-weight: 200;
+	}
+
+.view-display-id-maincontent .row{
+	padding-top: 0;
+}
+
+#events .view-main-events-page .row{
+	padding: 1em 0;
+	border-bottom: thin solid #ddd;
+}
+	#events .date .col-lg-8{
+		font-size: 0.9em;
+		color: #666;
+	}
+
+#login{
+	float: left;
+}
+	#login input{
+		background: #555;
+		border: 0;
+		color: #fff;
+	}
+	#login button{
+		background: #56a0d3;
+		color: #fff;
+	}
+		
+/* ARTICLE */
+#block-system-main .field-name-field-thumbnail img{
+	padding: 0 0 0.75em 0.75em;
+	float: right;
+}
+
+
+
+footer{
+	width: 100%;
+	color: #aaa;
+	font-size: 0.85em;
+	line-height: 125%;
+	background: #333;
+	padding: 2em 0;
+  	margin-top: 2em;	
+	/*position: absolute;
+	bottom: 0;*/
+}
+	footer p{
+	padding: 0; margin: 0;
+	}	
+
+	footer a{
+	color: #ccc;
+	}
+		footer h2.block-title{
+		font-weight: 300;
+		font-size: 1.25em;
+		color: #ccc;
+		}
+
+	footer .nav>li>a{
+	padding: 0; margin: 0;
+	line-height: 150%;
+	}
+		footer .nav>li>a:hover{
+		background: #555;
+		color: #fff;
+		}
+		footer hr{
+		border-color: #878787;
+		border-style: dotted;
+		}
+
+	footer .large-icons{
+	font-size: 2em;
+	color: #878787;
+	letter-spacing: 4px;
+	font-weight: 100;
+	}
+		footer .large-icons a{
+		color: #878787;
+		}
+
+		footer .large-icons a:hover{
+		color: #aaa;
+		}
+/* BREADCRUMBS */
+ol.breadcrumb{
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	font-size: 0.75em;
+	margin-bottom: 0.5em;
+}
+
+/* DATE BUTTONS */
+ul.pager{
+	float: right;
+	margin: 0;
+}
+
+	.pager li>a, .pager li>span{
+		background: #56a0d3;
+		color: #fff;
+		border: 0;
+	}
+
+.view .date-nav-wrapper .date-prev, .view .date-nav-wrapper .date-next{
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	right: 0; left: 0;
+	color: #fff;
+}
+
+/* NAV PILLS */
+#lowernav .nav-pills>li.active>a, 
+#lowernav .nav-pills>li.active>a:hover, 
+#lowernav .nav-pills>li.active>a:focus, 
+.btn-info,
+.view .date-nav-wrapper .date-prev a,
+.view .date-nav-wrapper .date-next a{
+	background: #56a0d3;
+	border: 0;
+}
+
+
+
+
+
+/* PROFILE */
+.course-table caption, .view-course-with-sections caption{
+	text-align: left;
+	font-size: 1.5em;
+}
+
+.glyphicon-lg{
+	font-size: 2em;
+}
+a i.video{
+	margin-top: 1em;
+	color: #fff;
+}
+
+/* MAIN CONTENT */
+.main-container{
+	padding-top: 1em;
+}
+
+
+#sidenav{
+	margin-right: 1em;
+}
+
+/* TITLE BLOCK */
+.titleblock{
+        background: url("/sites/all/themes/uncjomc/assets/carroll_bg.jpg");
+        background-size:  cover;
+        background-position: center 25%;
+        padding: 3em 0;
+        min-height: 200px;
+}
+
+        h1.page-title{
+        font-weight: 300;
+	font-size: 1.75em;
+	}
+
+ol.breadcrumb{
+        padding: 0.5em 0.25em;
+        background: rgba(0,0,0,0.5);
+}
+
+ol.breadcrumb *{
+        color: #fff;
+        font-weight: 200;
+}
+
+/* CATEGORY PAGES */
+.view-id-category_list .nav-tabs{
+	margin-top: 1em;
+	border: 0;
+}
+.view-id-category_list .nav-tabs>li>a{
+	font-weight: 300;
+	border: 1px solid #ddd;
+	background: #ededed;
+	color: #aaa;
+}
+
+.view-id-category_pages h3{
+	font-weight: 300;
+	padding: 0;
+	margin: 0;	
+}
+	.view-id-category_pages h3>a{
+		color: #555;
+		letter-spacing: 1px;
+	}
+.view-id-category_pages p,
+.view-id-category_pages span{
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+.view-id-category_pages p{
+	padding: 0.5em 0;
+}
+
+.view-id-category_pages thead{
+display: none;}
+
+.view-id-category_pages .table>tbody>tr>td{
+	vertical-align: middle;
+	padding: 1em;
+}
+.view-id-category_pages td>span{
+	color: #aaa;
+	font-size: 0.85em;
+}
+	.view-id-category_pages td>span>a{
+	margin: 0;
+	padding: 0;
+	}
+
+/* GENERAL VIEWS TABLE */
+
+.views-table tr:first-child>td{
+	border-top: 0;
+}
+
+
+
+/* FOOTER */
+
+.easy_social_box{
+padding-bottom: 1em;
+margin: auto;
+}
+
+/* VIEWS TABLE */
+.views-table th{
+font-weight: 400;
+text-transform: uppercase;
+font-size: 0.9em;
+}
+
+	.view-scholarship-database .view-header{
+	margin-bottom: 2em;}
+
+/* Sidebar */
+.region-sidebar-first .views-exposed-form label{
+font-weight: 400;
+text-transform: uppercase;
+font-size: 0.9em;
+}
+	.region-sidebar-first .views-exposed-form .description{
+	font-size: 0.8em;
+	font-style: italic;
+	color: #aaa;
+	}
+
+.region-sidebar-first .views-exposed-form .views-exposed-widget{
+float: none;
+}
+
+	.region-sidebar-first .views-exposed-form .views-exposed-widget .form-submit{
+	margin-top: 0;}
+
+
+
+
+/* UPCOMING EVENT BLOCK */
+.calendar-block .table>tbody>tr>td{
+	padding: 0.5em;
+	border: 0;
+}
+	/*.calendar-block .table>tbody>tr>td.day-of-week{
+	width: 90px;
+	padding: 0.5em;
+	}
+	
+	.calendar-block .table>tbody>tr>td.date-title{
+		padding-left: 10%;
+	}
+	*/
+
+	.calendar-block .day-of-week h5>span,
+	.calendar-block .day-of-week h6>span{
+		display: block;
+		width: 100%;
+	}
+
+	.calendar-block h5, .calendar-block h6{
+	padding: 0; margin: 0;
+	font-weight: 200;
+	}
+
+	.calendar-block .day-of-week h5{
+	font-size: 1.75em;
+	color: #6d6d6d;
+	font-weight: 200;}
+
+	.calendar-block .day-of-week h6{
+	font-size: 1.125em;
+	color: #6d6d6d;
+	}
+
+	/*.calendar-block .day-of-week h5>span{
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 0.95em;
+	padding: 0.5em;
+	border: 1px solid #bcdaee;
+	border-bottom: 0;
+	background: #56a0d3;
+	color: #fff;
+	}
+	
+	.calendar-block .day-of-week h6>span{
+	font-weight: 400;
+	font-size: 1.25em;
+	padding: 0.75em 0;
+	border: 1px solid #bcdaee;
+	border-top: 0;
+	background: #fff;
+	color: #56a0d3;
+	}*/
+
+			
+
+	.calendar-block .date-title h5>a{
+	font-weight: 300;
+	color: #56a0d3;
+	font-size: 1.125em;
+	}
+	
+		.calendar-block .date-title a{
+		color: #aaa;
+		}
+
+/*Directory*/
+
+.view-faculty-staff-directory .view-content .row{
+        padding: 10px;
+        border-bottom: 1px solid #f8f8f8;
+}
+
+.view-faculty-staff-directory .view-content .small{
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ccc;
+}
+
+.view-faculty-staff-directory .user-picture{
+        padding-right: 10px;
+}
+
+.view-faculty-staff-directory h5{
+        padding: 0; margin: 0;
+        font-size: 1.5em;
+        margin-bottom: 0.25em;
+}
+
+.view-faculty-staff-directory h5 a{
+        color: #333;
+}
+
+.view-faculty-staff-directory .job-title, .view-faculty-staff-directory .email a, .view-faculty-staff-directory .phone, .view-faculty-staff-directory .location{
+        font-size: 0.8em;
+        line-height: 110%;
+}
+
+.view-faculty-staff-directory .job-title{
+        font-weight: bold;
+}
+
+
+/* BODY */
+
+	.field-name-body table>tbody>tr>td{
+	padding: 0.5em 0;
+	}
+
+a.view-calendar{
+	font-size: 0.9em;
+	color: #ccc;
+	font-style: italic; 
+	text-align: right;
+}
+
+/* I AM A */
+#lowernav li a.i-am-a {
+	font-family: 'Vollkorn','Georgia',serif;
+	font-style: italic;
+	font-weight: 100;
+	color: #56a0d3;
+	letter-spacing: 1px;
+	font-size: 1.25em;
+}
+	#block-menu-menu-i-am-a- ul.menu li{
+	margin: 1em 0;
+	}
+	
+	#block-menu-menu-i-am-a- ul.menu li a{
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 1.15em;
+	text-align: center;
+	}
+		#block-menu-menu-i-am-a- ul.menu li a:hover{
+		opacity:0.4;
+		filter:alpha(opacity=40);
+		}
+
+
+.btn-download{
+	margin-top: 2em;
+	background: #d0e4f3;
+	color: #56a0d3;
+	border: 1px solid #93c2e3;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+	.btn-download a{
+		color: #56a0d3;
+		text-transform: uppercase;
+	}
+	.btn-download a:hover, .btn-download:hover{	
+	text-decoration: none;
+	color: #56a0d3;
+	}
+		.btn-download:hover{
+		background: #93c1e3;
+		}
+
+select{ border: #ccc thin solid;}
+
+.view-Profile2-Display .nav i{
+padding-right: 10px;
+}
+	.view-Profile2-Display .glyphicon:empty{
+	width: auto;}
